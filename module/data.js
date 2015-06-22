@@ -1,1 +1,4 @@
-export default (docs) => ({docs, version: 1});
+export default (comments) => ({
+  docs: comments.map((data) => ({data})),
+  version: 1,
+});
