@@ -28,6 +28,24 @@ doxie-dummy-data
 
 
 
+<p align="center"><a
+  title="Graphic by the great Justin Mezzell"
+  href="http://justinmezzell.tumblr.com/post/88665824413"
+  >
+  <br/>
+  <br/>
+  <img
+    src="Readme/Matchbox.gif"
+    width="400"
+    height="300"
+  />
+  <br/>
+  <br/>
+</a></p>
+
+
+
+
 Installation
 ------------
 
