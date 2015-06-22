@@ -22,7 +22,7 @@ doxie-dummy
 
 **A [tiny][] utility for testing *[doxie][]* plugins.**
 
-[tiny]:   ./module/index.js
+[tiny]:   ./module/data.js
 [doxie]:  http://npm.im/doxie
 
 
