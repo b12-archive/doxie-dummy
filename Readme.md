@@ -59,22 +59,52 @@ $ npm install doxie-dummy
 Usage
 -----
 
+```js
+const dummyData = require('doxie-dummy/data');
+const dummyOutput = require('doxie-dummy/output');
+```
+
+
+&nbsp;
+
+
 <h3><pre>
-dummyData(docs)
+dummyData(data)
   → doxieData
 </pre></h3>
 
 **Parameters:**
 
-* **`docs`**  
+* **`data`**  
   <sup>type: Array</sup>  
-  An array of docs – for example, coming from *dox*.
+  An array of docs’ data – for example, coming from *dox*.
 
 **Return value:**  
 
 * **`doxieData`**  
   <sup>type: Object</sup>  
-  A doxie-compatible object. It can be piped into a plugin or returned by a plugin.
+  A doxie-compatible object. It can be piped into a plugin.
+
+
+&nbsp;
+
+
+<h3><pre>
+dummyOutput(outputs)
+  → doxieData
+</pre></h3>
+
+**Parameters:**
+
+* **`outputs`**  
+  <sup>type: Array</sup>  
+  An array of docs’ output.
+
+**Return value:**  
+
+* **`doxieData`**  
+  <sup>type: Object</sup>  
+  A doxie-compatible object. It can be piped into a plugin.
 
 
 
