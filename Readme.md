@@ -7,8 +7,8 @@
  [![David – status of dependencies
 ](https://img.shields.io/david/studio-b12/doxie-dummy-data.svg?style=flat-square)
 ](https://david-dm.org/studio-b12/doxie-dummy-data)
- [![Stability: experimental
-](https://img.shields.io/badge/stability-experimental-yellow.svg?style=flat-square)
+ [![Stability: unstable
+](https://img.shields.io/badge/stability-unstable-yellowgreen.svg?style=flat-square)
 ](https://nodejs.org/api/documentation.html#documentation_stability_index)
  [![Code style: airbnb
 ](https://img.shields.io/badge/code%20style-airbnb-blue.svg?style=flat-square)
@@ -20,14 +20,10 @@
 doxie-dummy-data
 ================
 
-**A tiny utility for testing *[doxie][]* plugins.**
+**A [tiny][] utility for testing *[doxie][]* plugins.**
 
+[tiny]:   ./module/index.js
 [doxie]:  http://npm.im/doxie
-
-
-**⚠ Heads up!** This is totally a work in progress. [Thoughts and ideas][] are very welcome.
-
-[Thoughts and ideas]:  https://github.com/studio-b12/doxie-dummy-data/issues
 
 
 
@@ -45,7 +41,20 @@ $ npm install doxie-dummy-data
 Usage
 -----
 
-…
+<h3><pre>
+dummyData(docs)
+  → doxieData
+</pre></h3>
+
+**Parameters:**
+
+* **`docs`**  
+  <sup>type: Array</sup>  
+  An array of docs – for example, coming from *dox*.
+
+**Return value:**  
+<sup>type: Object</sup>  
+A doxie-compatible object. It can be piped into a plugin or returned by a plugin.
 
 
 
