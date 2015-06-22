@@ -1,6 +1,6 @@
-{ "name": "…"
+{ "name": "doxie-dummy-data"
 , "version": "0.0.0-work-in-progress"
-, "description": "…"
+, "description": "A tiny utility for testing doxie plugins."
 
 , "dependencies":
   {}
