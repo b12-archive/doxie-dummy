@@ -1,4 +1,4 @@
-{ "name": "doxie-dummy-data"
+{ "name": "doxie-dummy"
 , "version": "0.1.1"
 , "description": "A tiny utility for testing doxie plugins."
 
@@ -44,6 +44,6 @@
 , "author": "© 2015 Studio B12 GmbH (http://studio-b12.de)"
 , "repository":
   { "type": "git"
-  , "url": "git@github.com:studio-b12/doxie-dummy-data.git"
+  , "url": "git@github.com:studio-b12/doxie-dummy.git"
   }
 }

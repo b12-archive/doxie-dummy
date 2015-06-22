@@ -1,12 +1,12 @@
 [![Coveralls – test coverage
-](https://img.shields.io/coveralls/studio-b12/doxie-dummy-data.svg?style=flat-square)
-](https://coveralls.io/r/studio-b12/doxie-dummy-data)
+](https://img.shields.io/coveralls/studio-b12/doxie-dummy.svg?style=flat-square)
+](https://coveralls.io/r/studio-b12/doxie-dummy)
  [![Travis – build status
-](https://img.shields.io/travis/studio-b12/doxie-dummy-data/master.svg?style=flat-square)
-](https://travis-ci.org/studio-b12/doxie-dummy-data)
+](https://img.shields.io/travis/studio-b12/doxie-dummy/master.svg?style=flat-square)
+](https://travis-ci.org/studio-b12/doxie-dummy)
  [![David – status of dependencies
-](https://img.shields.io/david/studio-b12/doxie-dummy-data.svg?style=flat-square)
-](https://david-dm.org/studio-b12/doxie-dummy-data)
+](https://img.shields.io/david/studio-b12/doxie-dummy.svg?style=flat-square)
+](https://david-dm.org/studio-b12/doxie-dummy)
  [![Stability: unstable
 ](https://img.shields.io/badge/stability-unstable-yellowgreen.svg?style=flat-square)
 ](https://nodejs.org/api/documentation.html#documentation_stability_index)
@@ -17,8 +17,8 @@
 
 
 
-doxie-dummy-data
-================
+doxie-dummy
+===========
 
 **A [tiny][] utility for testing *[doxie][]* plugins.**
 
@@ -50,7 +50,7 @@ Installation
 ------------
 
 ```sh
-$ npm install doxie-dummy-data
+$ npm install doxie-dummy
 ```
 
 
