@@ -60,9 +60,31 @@ Usage
 -----
 
 ```js
+const dummy = require('doxie-dummy');
 const dummyData = require('doxie-dummy/data');
 const dummyOutput = require('doxie-dummy/output');
 ```
+
+
+&nbsp;
+
+
+<h3><pre>
+dummy(docs)
+  → doxieData
+</pre></h3>
+
+**Parameters:**
+
+* **`docs`**  
+  <sup>type: Object[]</sup>  
+  An array of docs. Each should match the signature `{[data], [output]}`.
+
+**Return value:**  
+
+* **`doxieData`**  
+  <sup>type: Object</sup>  
+  A doxie-compatible object. It can be piped into a plugin.
 
 
 &nbsp;
@@ -76,7 +98,7 @@ dummyData(data)
 **Parameters:**
 
 * **`data`**  
-  <sup>type: Array</sup>  
+  <sup>type: *[]</sup>  
   An array of docs’ data – for example, coming from *dox*.
 
 **Return value:**  
@@ -97,8 +119,8 @@ dummyOutput(outputs)
 **Parameters:**
 
 * **`outputs`**  
-  <sup>type: Array</sup>  
-  An array of docs’ output.
+  <sup>type: String[]</sup>  
+  An array of docs’ output – for example, coming from [`doxie --render`](http://npm.im/doxie.render).
 
 **Return value:**  
 
