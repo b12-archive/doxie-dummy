@@ -71,8 +71,10 @@ dummyData(docs)
   An array of docs – for example, coming from *dox*.
 
 **Return value:**  
-<sup>type: Object</sup>  
-A doxie-compatible object. It can be piped into a plugin or returned by a plugin.
+
+* **`doxieData`**  
+  <sup>type: Object</sup>  
+  A doxie-compatible object. It can be piped into a plugin or returned by a plugin.
 
 
 
